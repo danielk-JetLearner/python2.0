@@ -12,3 +12,11 @@ while True:
         d[key] = storage
     if choice == 2:
         print (d)
+    if choice == 3: 
+        gloss = (input("what word would you like to delete"))
+        del d[gloss]    
+    if choice == 4:
+        m = input("what word would you like a description")
+        print(d[m])
+    if choice ==5:
+        break
