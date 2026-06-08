@@ -8,3 +8,9 @@ file.close()
 file = open("filename.txt", "r")
 filen = file.readlines()
 print(filen)
+with open ("mysisterisaloser.txt", "w") as file:
+   file.write("my sister is annoying\n")
+with open("mysisterisabigloser.txt", "a") as filen:
+   filen.write ("my sister is a shorty\n")
+with open("mysisteristooshortforherage.txt", "w") as file:
+   file.write("my sister is dumb\n")
